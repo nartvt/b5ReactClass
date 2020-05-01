@@ -41,13 +41,13 @@ export default class BaiTapStateLoop extends Component {
     return (
       <Grid>
         <Row style={{ maxHeight: heightDevice / 2, position: 'relative' }}>
-          <Image style={{ height: heightDevice / 2, marginLeft: '-5%', paddingTop: '10%' }}
+          <Image style={{ height: heightDevice / 2, marginLeft: '-17%', paddingTop: '10%' }}
             source={require('../assets/img/glasses/model.jpg')}
             resizeMode='stretch' />
           <Image style={{
             position: 'absolute',
             top: '20%',
-            left: '27%',
+            left: '15%',
             width: '70%',
             height: heightDevice / 7
           }} source={this.state.glassesCurrent.url} />
