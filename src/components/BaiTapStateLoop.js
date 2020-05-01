@@ -47,13 +47,13 @@ export default class BaiTapStateLoop extends Component {
           <Image style={{
             position: 'absolute',
             top: '20%',
-            left: '17%',
+            left: '27%',
             width: '70%',
             height: heightDevice / 7
           }} source={this.state.glassesCurrent.url} />
           <View style={{
             position: 'absolute', width: widthDevice, height: '30%',
-            backgroundColor:'rgba(132,112,255,0.3)',bottom:0 }}>
+           bottom:0 }}>
             <Text>{this.state.glassesCurrent.name}</Text>
           </View>
         </Row>
